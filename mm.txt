@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reabetswe Kopano (PTY) Ltd Accounting and Bookkeeping Solutions</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style for the SVG text elements to use Inter font */
+        .svg-text {
+            font-family: 'Inter', sans-serif;
+            font-weight: 800; /* Extra bold for main initials */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-blue-800 text-white p-4 shadow-md rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+            <!-- Logo Integration -->
+            <a href="#home" class="flex flex-col items-center md:items-start p-2 rounded-lg hover:bg-blue-700 transition-colors">
+                <svg width="150" height="150" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-24 h-24 md:w-32 md:h-32">
+                    <!-- Background shape / abstract element -->
+                    <path d="M125 0L200 75V175L125 250L50 175V75L125 0Z" fill="#ffffff" opacity="0.1" />
+                    <path d="M125 20L185 75V165L125 230L65 165V75L125 20Z" fill="#ffffff" opacity="0.2" />
+
+                    <!-- RK Initials - Adjusted size and position for header -->
+                    <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-size="80" fill="#ffffff" class="svg-text">RK</text>
+
+                    <!-- (PTY) Ltd part - Adjusted size and position -->
+                    <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#dbeafe" class="svg-text"> (PTY) Ltd</text>
+
+                    <!-- Slogan: Accounting & Bookkeeping Solutions - Adjusted size and position -->
+                    <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#93c5fd" class="svg-text font-semibold">Accounting & Bookkeeping Solutions</text>
+
+                    <!-- Optional: small, subtle abstract financial elements -->
+                    <path d="M70 190L80 180L90 190L80 200L70 190Z" fill="#3b82f6" opacity="0.7" />
+                    <path d="M160 190L170 180L180 190L170 200L160 190Z" fill="#3b82f6" opacity="0.7" />
+                </svg>
+            </a>
+            <nav class="mt-4 md:mt-0 space-y-2 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
+                <a href="#home" class="hover:underline text-lg rounded-md px-3 py-2 text-center hover:bg-blue-700 transition-colors">Home</a>
+                <a href="#about" class="hover:underline text-lg rounded-md px-3 py-2 text-center hover:bg-blue-700 transition-colors">About Us</a>
+                <a href="#services" class="hover:underline text-lg rounded-md px-3 py-2 text-center hover:bg-blue-700 transition-colors">Services</a>
+                <a href="#contact" class="hover:underline text-lg rounded-md px-3 py-2 text-center hover:bg-blue-700 transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow container mx-auto p-8 pt-12">
+
+        <!-- Hero Section -->
+        <section id="home" class="bg-white p-10 rounded-xl shadow-lg mb-12 text-center md:flex md:items-center md:justify-between">
+            <div class="md:w-1/2 md:text-left mb-8 md:mb-0">
+                <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-800 mb-4 leading-tight">
+                    Your Trusted Partner in <span class="text-blue-800">Financial Growth</span>
+                </h2>
+                <p class="text-lg text-gray-700 mb-6 max-w-lg mx-auto md:mx-0">
+                    We provide comprehensive accounting and bookkeeping solutions, empowering SMMEs to thrive through expert financial management, strategic development, and robust compliance.
+                </p>
+                <button class="bg-blue-800 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition-transform transform hover:scale-105 shadow-lg">
+                    Get a Free Consultation
+                </button>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- Placeholder image for visual appeal -->
+                <img src="https://placehold.co/400x300/e0e7ff/1e3a8a?text=Financial+Solutions" alt="Financial Solutions Image" class="rounded-lg shadow-xl max-w-full h-auto">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-white p-10 rounded-xl shadow-lg mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-8">About Reabetswe Kopano (PTY) Ltd</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/500x350/ffe0e0/881c1c?text=Our+Professional+Team" alt="Our Professional Team" class="rounded-lg shadow-xl max-w-full h-auto">
+                </div>
+                <div class="md:w-1/2">
+                    <p class="text-lg text-gray-700 mb-4">
+                        At Reabetswe Kopano (PTY) Ltd, we are more than just accountants; we are dedicated partners committed to the success of Small, Medium, and Micro Enterprises (SMMEs). We understand the unique challenges faced by growing businesses in South Africa and offer tailored financial solutions to help them navigate complex landscapes.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        Our mission is to empower SMMEs through expert financial management, strategic development, and robust compliance. We believe that with accurate financial insights and proactive guidance, businesses can make informed decisions, optimize operations, and achieve sustainable growth. Let us handle your financial complexities so you can focus on what you do best: running your business.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="bg-white p-10 rounded-xl shadow-lg mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-8">Our Comprehensive Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Core Accounting & Bookkeeping -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">Core Accounting & Bookkeeping</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Daily Transaction Recording</li>
+                        <li>Ledger Maintenance & Data Entry</li>
+                        <li>Accounts Payable & Receivable Management</li>
+                        <li>Monthly Management Accounts</li>
+                        <li>Annual Financial Statements Preparation</li>
+                        <li>Financial Reporting</li>
+                    </ul>
+                </div>
+
+                <!-- Taxation Services -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">Taxation Services</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Tax Planning & Advisory</li>
+                        <li>Individual Income Tax (IT12)</li>
+                        <li>Provisional Tax & Corporate Income Tax (IT14)</li>
+                        <li>Value Added Tax (VAT) & PAYE/UIF/SDL</li>
+                        <li>Tax Clearances & SARS Dispute Resolution</li>
+                        <li>Tax Registrations</li>
+                    </ul>
+                </div>
+
+                <!-- Auditing & Assurance -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">Auditing & Assurance</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>External Audits</li>
+                        <li>Independent Reviews</li>
+                        <li>Internal Audits</li>
+                        <li>Compliance Audits</li>
+                        <li>Forensic Audits</li>
+                        <li>Due Diligence</li>
+                    </ul>
+                </div>
+
+                <!-- Business Compliance & Regulatory Services -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">Business Compliance & Regulatory Services</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Company Secretarial Services (CIPC)</li>
+                        <li>Regulatory Compliance Advisory (e.g., POPIA)</li>
+                        <li>BEE/BBBEE Consulting</li>
+                        <li>Business Registration & Licensing</li>
+                        <li>Labour Law Compliance Advisory</li>
+                        <li>Compliance Risk Assessments</li>
+                    </ul>
+                </div>
+
+                <!-- Business Advisory & Consulting -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">Business Advisory & Consulting</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Business Plans & Strategy</li>
+                        <li>Business Valuation</li>
+                        <li>Cash Flow Management</li>
+                        <li>Financial Planning</li>
+                        <li>Outsourced CFO Services</li>
+                        <li>Risk Management & Succession Planning</li>
+                    </ul>
+                </div>
+
+                <!-- Digital & Cloud Solutions -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow transform hover:scale-105">
+                    <h3 class="text-2xl font-semibold text-blue-800 mb-3">Digital & Cloud Solutions</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Cloud Accounting Software Setup & Support</li>
+                        <li>Digital Transformation & Automation</li>
+                        <li>Data Analytics & Reporting</li>
+                        <li>Automated Document Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="bg-blue-700 text-white p-10 rounded-xl shadow-lg text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Ready to Grow Your Business?</h2>
+            <p class="text-xl mb-8">
+                Contact Reabetswe Kopano today for a personalized approach to your financial success.
+            </p>
+            <button class="bg-white text-blue-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-transform transform hover:scale-105 shadow-lg">
+                Book Your Consultation
+            </button>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-blue-800 text-white p-10 rounded-xl shadow-lg">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-8">Get in Touch With Us</h2>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg text-center mb-4">
+                    We're here to answer your questions and help you with your accounting and bookkeeping needs.
+                </p>
+                <div class="text-center mb-8">
+                    <p class="text-xl font-semibold mb-2">Phone: <a href="tel:+27738727717" class="hover:underline">073 872 7717</a></p>
+                    <p class="text-xl font-semibold">Email: <a href="mailto:kgasiletlhogonolo@gmail.com" class="hover:underline">kgasiletlhogonolo@gmail.com</a></p>
+                </div>
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-lg font-semibold mb-2">Name</label>
+                        <input type="text" id="name" class="w-full p-3 rounded-md bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-lg font-semibold mb-2">Email</label>
+                        <input type="email" id="email" class="w-full p-3 rounded-md bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300" placeholder="your.email@example.com">
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="message" class="block text-lg font-semibold mb-2">Message</label>
+                        <textarea id="message" rows="6" class="w-full p-3 rounded-md bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300" placeholder="Your message..."></textarea>
+                    </div>
+                    <div class="md:col-span-2 text-center">
+                        <button type="submit" class="bg-white text-blue-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-transform transform hover:scale-105 shadow-lg">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white p-6 mt-12 rounded-t-lg shadow-inner">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2025 Reabetswe Kopano (PTY) Ltd. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="#" class="hover:underline px-2">Privacy Policy</a> |
+                <a href="#" class="hover:underline px-2">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
